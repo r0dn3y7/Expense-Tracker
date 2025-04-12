@@ -1,13 +1,45 @@
-# React + Vite
+# 💸 Expense Tracker (Phase 2 React Challenge)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and responsive Expense Tracker application built with **React** for the Phase 2 coding challenge. It allows users to:
 
-Currently, two official plugins are available:
+- Add new expenses
+- View a list of all expenses
+- Filter expenses by name using a search bar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📥 **Add Expenses** — Fill in the form with name, description, category, amount, and date.
+- 🔍 **Search Functionality** — Filter expenses by typing in the search input.
+- 💾 **State Management** — All data is handled in React.
+- 🧠 **React Fundamentals** — Covers props, events, state, rendering, and efficient component structure.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Expense-Tracker
+## 🧱 Tech Stack
+
+- React 
+-  CSS for styling
+  
+
+## 📂 File Structure
+src/ ├── components/ │ ├── ExpenseForm.jsx │ ├── ExpenseList.jsx │ ├── ExpenseItem.jsx ├── App.jsx └── index.css
+
+
+## 🛠️ How to Run
+
+1. Clone the repo:
+   git clone https://github.com/your-username/expense-tracker.git
+   
+2. Navigate to the folder:
+   cd expense-tracker
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+      or
+   npm start
+
+   
+
+
+
