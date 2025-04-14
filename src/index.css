@@ -39,11 +39,7 @@ button {
   cursor: pointer;
 }
 
-.table {
-  flex: 2;
-  width: 100%;
-  border-collapse: collapse;
-}
+
 
 .table th,
 .table td {
@@ -53,7 +49,7 @@ button {
 }
 
 .search-input {
-  width: 100%;
+  width: 47%;
   padding: 0.5rem;
   margin: 1rem 0;
 }

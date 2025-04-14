@@ -1,6 +1,7 @@
 import { useState } from "react";
-import ExpenseForm from "./components/ExpenseForm";
-import ExpenseList from "./components/ExpenseList";
+import ExpenseForm from "./Components/ExpenseForm";
+import ExpenseList from "./Components/ExpenseList";
+import ExpenseItem from "./Components/ExpenseItem";
 import "./index.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       category: "food",
       amount: 100,
       date: "2025-04-08",
+  
     },
     {
       id: 2,
